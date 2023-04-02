@@ -383,6 +383,27 @@ a {
     justify-content: space-between;
     flex-direction: column;
   }
+
+  ul {
+    border-bottom: 2px solid #F2F2F2;
+    width: 104%;
+    padding-bottom: 16px;
+    margin-left: -25px;
+  }
+
+
+
+  li > a {
+
+    margin-bottom: -17px;
+  }
+  footer {
+  padding-right: 0px;
+}
+
+  .color_footer {
+    width: 100%;
+     }
   .search {
     padding-right: 13px;
   }
@@ -411,6 +432,9 @@ a {
     padding-bottom: 23px;
   }
   
+  body > header:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1) {
+    padding-right: 89px;
+    }
   nav a {
     text-decoration: none; /* retirer la décoration du lien */
     color: black;
@@ -492,6 +516,7 @@ a {
     margin-left: -27px;
     margin-bottom: -13px;
     margin-top: -216px;
+    width: 108.5%;
   }
   
   .propos {
@@ -531,9 +556,22 @@ a {
   .h3_populaire > img:nth-child(1) {
     width: 9%;
   }
+
+  body > header:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1) {
+    margin-left: -37px;
+    padding-left: 43px;
+    }
+
+    body > header:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1) {
+      padding-right: 20px;
+      }
+      body > header:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1) {
+      margin-left: -38%;
+      }
+
   .section_populaire {
     border-radius: 2%;
-    width: 115%;
+    width: 122%;
     height: 518px;
     margin-right: 2%;
     background-color: #F2F2F2;
@@ -582,7 +620,7 @@ a {
   
   .section {
     background-color: white;
-    width: 288%;
+    width: 100%;
     height: 1442px;
     border-radius: 2%;
     padding-left: 12%;
@@ -614,7 +652,7 @@ a {
     border-radius: 30px;
     background-color: white;
     padding: 5px 5px 5px 5px;
-    width: 34.5%;
+    width: 96.5%;
     height: 189px;
     margin-right: 25px;
     margin-bottom: 34px;
