@@ -50,6 +50,22 @@ header {
   padding-bottom: 34px;
 }
 
+.h3_populaire {
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  margin-top: -2px;
+}
+
+.h3_populaire > img:nth-child(1) {
+  width: 9%;
+  height: 81px;
+}
+
+.h3_populaire {
+  width: 363px;
+}
+
 
 nav li {
   list-style: none; /* retirer les puces */
@@ -103,9 +119,9 @@ form {
   padding-right: 10px;
   padding-left: 2px;
   border-right-width: 0px;
-border-right-style: solid;
-border-bottom-width: 0px;
-border-bottom-style: solid;
+  border-right-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
 }
 
 .filter {
@@ -122,11 +138,11 @@ border-bottom-style: solid;
 }
 body > div:nth-child(3) {
   margin-top: 35px;
-  }
+}
 
-  #activite {
-    margin-left: 2%;
-    }
+#activite {
+  margin-left: 2%;
+}
 
 .border {
   border-left-style: solid;
@@ -332,7 +348,7 @@ footer {
 
 #button{
   margin-left: 7px;
-font-weight: bold;
+  font-weight: bold;
 }
 
 .propos{
@@ -367,7 +383,14 @@ a {
     justify-content: space-between;
     flex-direction: column;
   }
+  .search {
+    padding-right: 13px;
+  }
   
+  body > div:nth-child(3) {
+    margin-bottom: 6%;
+    margin-top: 10px;
+  }
   .classlogo {
     width: 76px;
     margin-top: 30px;
@@ -501,10 +524,17 @@ a {
     flex-direction: column;
   }
   
+  .h3_populaire {
+    width: 83%;
+  }
+  
+  .h3_populaire > img:nth-child(1) {
+    width: 9%;
+  }
   .section_populaire {
     border-radius: 2%;
     width: 115%;
-    height: 473px;
+    height: 518px;
     margin-right: 2%;
     background-color: #F2F2F2;
     display: flex;
@@ -638,11 +668,11 @@ a {
   }
   
   #activite{
-    
-    width: 30%;
+    margin-top: -21%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   
   header {
@@ -692,12 +722,18 @@ a {
   }
   
   .section_populaire {
-    width: 100%;
+    width: 101%;
     margin-left: 0px;
     flex-direction: row;
     height: 260px;
     margin-top: 10%;
     justify-content: space-around;
+  }
+  
+  #activite {
+    margin-left: 0%;
+    margin-top: -4%;
+    margin-bottom: 4%;
   }
   
   .card_img_populaire {
@@ -706,10 +742,14 @@ a {
   .h3_populaire {
     position: absolute;
     left: 1%;
+    padding-left: 5.6%;
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
   }
   
   .card_populaire {
-    width: 29%;
+    width: 28.5%;
     margin-top: 8%;
     height: 73%;
   }
@@ -717,7 +757,9 @@ a {
   br {
     display: none;
   }
-  
+  div.card_populaire:nth-child(2) {
+    margin-left: 1%;
+  }
   div.card_populaire:nth-child(3) > div:nth-child(2) > h2:nth-child(1) {
     width: 81%;
   }
@@ -771,21 +813,53 @@ a {
     display: flex;
     justify-content: center;
   }
-
- 
+  
+  
   div.row_filtres:nth-child(3) {
     margin-left: -4%;
-    } 
-
+  } 
+  
   h1{
     margin-top: 13px;
-    margin-left: 17px;
+    
+  }
+  #hebergement {
+    font-family: Raleway;
+    font-size: 18px;
+    margin-left: -9px;
+    margin-top: 26px;
+  }
   
-}
-#hebergement {
-  font-family: Raleway;
-  font-size: 18px;
-  margin-left: -9px;
-  margin-top: 26px;
-}
+  ul {
+    margin-top: 10%;
+  }
+  nav a {
+    padding-top: 43px;
+  }
+  
+  #affichage {
+    margin-top: -1%;
+    margin-left: 0%;
+  }
+  
+  
+  
+  
+  div.card_populaire:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
+    margin-top: 47%;
+    margin-left: -4px;
+  }
+  
+  #fix_stars {
+    margin-top: 51%;
+  }
+  
+  div.card_populaire:nth-child(3) > div:nth-child(2) > div:nth-child(3) {
+    margin-left: -7px;
+  }
+  
+  .h3_populaire > img:nth-child(1) {
+    width: 4%;
+  }
+  
 }
