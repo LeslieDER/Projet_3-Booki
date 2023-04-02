@@ -116,7 +116,14 @@ form {
 .info {
   font-family: Raleway;
 }
+body > div:nth-child(3) {
+  margin-top: 35px;
+  }
 
+  #activite {
+    margin-left: 2%;
+    }
+    
 .border {
   border-left-style: solid;
   border-left-width: 1px;
