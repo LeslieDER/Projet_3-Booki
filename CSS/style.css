@@ -305,7 +305,7 @@
   }
   
   #fix_stars  {
-    margin-top: 30%;
+    margin-top: 36%;
   }
   .card p, .card h2 {
     margin: 10px;
@@ -587,14 +587,15 @@
   body > header:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1) {
     padding-right: 0px;
     margin-left: 0px;
+    width: 125.567px;
   }
   nav li {
-  margin-right: inherit;
-}
+    margin-right: inherit;
+  }
   .section_populaire {
     border-radius: 2%;
     width: 113%;
-    height: 518px;
+    height: 610px;
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
@@ -605,13 +606,15 @@
     margin-left: -10%;
     margin-right: 0px;
   }
-  
+  div.card_populaire:nth-child(4) {
+    height: 133.667px;
+    }
   .p_populaire{
     font-size: 10px;
   }
   
   .margin {
-    margin-top: 25%;
+    margin-top: 31%;
     font-size: 13px;
   }
   
@@ -744,6 +747,10 @@
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   
+  .row_populaire {
+    padding-left: 3%;
+  }
+  
   header {
     flex-direction: row;
   }
@@ -804,9 +811,12 @@
     margin-top: -4%;
     margin-bottom: 4%;
   }
-  
+  .card_populaire > a {
+    width: 97%;
+  }
   .card_img_populaire {
-    width: 55%;
+    width: 95%;
+    object-fit: fill;
   }
   .h3_populaire {
     position: absolute;
@@ -915,12 +925,13 @@
   
   
   div.card_populaire:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
-    margin-top: 47%;
-    margin-left: -4px;
+    margin-top: 40%;
+    margin-left: -11px;
   }
   
   #fix_stars {
-    margin-top: 51%;
+    width: 111px;
+    margin-top: 53%;
   }
   
   div.card_populaire:nth-child(3) > div:nth-child(2) > div:nth-child(3) {
