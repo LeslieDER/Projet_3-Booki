@@ -10,9 +10,6 @@
     margin-left: 3px;
   }
   
-  div.ligne:nth-child(2) > div:nth-child(1) > p:nth-child(3) {
-    margin-left: 4px;
-  }
   
   
   
@@ -191,7 +188,6 @@
     height: 651px;
     border-radius: 2%;
     padding-left: 30px;
-    margin-bottom: 20%;
   }
   
   .section_populaire {
@@ -307,7 +303,7 @@
   #fix_stars  {
     margin-top: 36%;
   }
-  .card p, .card h2 {
+  .card p, .card h3 {
     margin: 10px;
     font-family: Raleway;
     font-size: 89%;
@@ -569,6 +565,7 @@
   
   .h3_populaire {
     width: 83%;
+    padding-left: 9%;
   }
   
   .h3_populaire > img:nth-child(1) {
@@ -656,7 +653,7 @@
     padding-left: inherit;
   }
   
-  .card h2 {
+  .card h3 {
     font-family: Raleway;
     font-size: 15px;
     margin-top: 3px;
@@ -783,6 +780,7 @@
     background-color: #F2F2F2;
     height: 620px;
     width: 97%;
+    margin-bottom: -4%;
   }
   .boite1 {
     width: 97%;
@@ -875,10 +873,13 @@
   }
   
   .color_footer{
-    width: 174%;
+    width: 95%;
     margin-left: 2px;
   }
   
+  footer {
+  width: 101%;
+}
   .assistance {
     padding-right: 93px;
   }
@@ -944,4 +945,18 @@
   }
   
 }
+@media only screen and (min-width: 993px) and (max-width: 1099px) {
 
+  .p , .p_populaire {
+    width: 107%;
+  }
+
+  #fix_stars {
+    margin-top: 27%;
+  }
+
+
+
+
+
+}
