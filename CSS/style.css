@@ -93,17 +93,19 @@
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
-    width: 126.1%;
-    margin-left: 28px;
     height: 150px;
     margin-bottom: -5px;
     padding-top: 29px;
+    margin-left: 0px;
+    width: 132.3%;
   }
-  
   footer {
     padding-top: 41px;
   }
-  
+  .hebergement {
+    padding-right: 2%;
+   }
+   
   ul {
     display: flex;
   }
@@ -141,17 +143,13 @@
     margin-top: 22px;
     font-family: Raleway;
     margin-left: 0px;
-    width: 953px;
+    width: 67%;
   }
   .info {
     font-family: Raleway;
   }
   body > div:nth-child(3) {
     margin-top: 35px;
-  }
-  
-  #activite {
-    margin-left: 2%;
   }
   
   .border {
@@ -170,7 +168,7 @@
     padding-bottom: 1px;
     border-color: #D9D9D9;
     border-bottom-width: 1px;
-    margin-right: 50px;
+    margin-right: 35px;
   }
   
   .fa-money-bill-wave , .fa-sharp, .fa-heart, .fa-dog {
@@ -266,8 +264,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 5%;
-    margin-left: 2%;
-    width: 96%;
+    width: 100%;
   }
   .card_marseille {
     width: 100%;
@@ -285,7 +282,7 @@
     box-shadow: 0px 0 15px 10px #F2F2F2;
     border-radius: 25px;
     height: 400px;
-    width: 87.84%;
+    width: 90.84%;
   }
   
   .card_padding {
@@ -326,7 +323,7 @@
   
   
   footer {
-    padding-right: 320px;
+    padding-right: 26%;
   }
   
   .cardpopulaire {
@@ -364,11 +361,11 @@
   }
   
   .propos{
-    padding-left: 30px;
+    padding-left: 2.27%;
   }
   
   .assistance{
-    padding-right: 280px;
+    padding-right: 22%;
   }
   
   #hebergement{
@@ -396,10 +393,12 @@
     justify-content: space-between;
     flex-direction: column;
   }
-  
+  .row_title {
+    width: 100%;
+   }
+   
   ul {
     border-bottom: 2px solid #F2F2F2;
-    width: 97%;
     padding-bottom: 16px;
     margin-left: -25px;
   }
@@ -414,9 +413,6 @@
     padding-right: 0px;
   }
   
-  .color_footer {
-    width: 100%;
-  }
   .search {
     padding-right: 13px;
   }
@@ -499,7 +495,7 @@
   .row_filtres {
     display: flex;
     justify-content: space-between;
-    width: 130%;
+    width: 122%;
     
   }
   
@@ -516,12 +512,6 @@
     width: 96%;
     flex-direction: column;
   }
-  .card_marseille {
-    width: 334px;
-    height: 190px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
   
   .color_footer{
     flex-direction: column;
@@ -529,30 +519,35 @@
     margin-bottom: -13px;
     margin-top: -216px;
     margin-left: 0px;
-    width: 98.51%;
+    width: 101.51%;
   }
   
   .propos {
     padding-left: 40px;
+    width: 65%;
   }
   
   .assistance {
     margin-left: 40px;
     padding-right: 0px;
+    width: 58%;
   }
   
   .hebergement{
     margin-left: 40px;
+    width: 56%;
   }
   
   body{
     height: 3000px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
   
   footer {
     padding-top: 41px;
     margin-top: 278px;
-    width: 113.5%;
+    width: 106.5%;
     margin-left: -8%;
   }
   
@@ -584,14 +579,13 @@
   body > header:nth-child(1) > nav:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1) {
     padding-right: 0px;
     margin-left: 0px;
-    width: 125.567px;
+    width: 109.567px;
   }
   nav li {
     margin-right: inherit;
   }
   .section_populaire {
     border-radius: 2%;
-    width: 113%;
     height: 610px;
     background-color: #F2F2F2;
     display: flex;
@@ -600,8 +594,9 @@
     padding-bottom: 2%;
     margin-left: -28px;
     order: 1;
-    margin-left: -10%;
     margin-right: 0px;
+    margin-left: -4.8%;
+width: 105%;
   }
   div.card_populaire:nth-child(4) {
     height: 133.667px;
@@ -630,11 +625,11 @@
     align-self: center;
     display: flex;
     flex-direction: row;
-    width: 75%;
     height: 30%;
     margin-bottom: 28px;
-    margin-left: -4%;
     margin-right: 2%;
+    width: 82%;
+margin-left: 2%;
   }
   
   .ligne {
@@ -671,6 +666,7 @@
     height: 124px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    object-fit: cover;
   }
   
   .card {
@@ -683,6 +679,7 @@
     margin-right: 25px;
     margin-bottom: 34px;
     box-shadow: rgba(45, 42, 42, 0.2) 0px 2px 8px 0px;
+    margin-left: -1%;
   }
   
   .star {
@@ -696,6 +693,7 @@
     padding-left: 15px;
     margin-top: 26px;
     margin-left: -4%;
+
   }
   
   .container_marseille {
@@ -705,13 +703,12 @@
     width: 96%;
     flex-direction: column;
     height: 1000px;
-    height: 107%;
     margin-left: 0%;
   }
   
   .card_marseille {
     width: 100%;
-    height: 87%;
+    height: 78%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -719,7 +716,8 @@
   .shadow_border {
     box-shadow: 0px 0 15px 10px #F2F2F2;
     border-radius: 25px;
-    height: 437px;
+    height: 225px;
+    width: 95.84%;
   }
   
   .h2_populaire {
@@ -739,12 +737,11 @@
   }
   
   .Marseille{
-    height: 1800px;
     padding-top: 19%;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   
   .row_populaire {
     padding-left: 3%;
@@ -760,13 +757,9 @@
   .filter {
     flex-wrap: inherit;
     flex-direction: inherit;
-    width: 88%;
+    width: 98%;
     height: 80%;
     font-size: 14px;
-  }
-  
-  .row_title {
-    margin-right: 6%;
   }
   
   body > div:nth-child(3) {
@@ -849,6 +842,7 @@
   
   .card img {
     width: 100%;
+    object-fit: cover;
   }
   
   .card_marseille {
@@ -887,9 +881,10 @@
   
   .border {
     display: flex;
-    margin-left: -9%;
   }
-  
+  div.row_filtres:nth-child(3) > div:nth-child(2) {
+    margin-right: -5px;
+    }
   .row_filtres {
     width: 55%;
     display: flex;
@@ -960,4 +955,9 @@
 
 
 
+}
+
+/*
+*{
+  box-shadow: 0px 0px 10px red;
 }
