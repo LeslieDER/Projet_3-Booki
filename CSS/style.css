@@ -482,13 +482,15 @@ width: 100%;
     font-family: 'FontAwesome';
     margin-left: 10px;
   }
-  
+
+
   form { 
     display: flex; 
     box-shadow: rgba(45, 42, 42, 0.2) 0px 2px 8px 0px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 249px;;
+    width: 60%;
+    justify-content: space-between;
   }
   
   .border { 
